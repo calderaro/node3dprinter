@@ -1,7 +1,9 @@
 const SerialPort = require("serialport");
 const Readline = require("@serialport/parser-readline");
 
-const port = new SerialPort("/dev/tty.usbserial-1410", {
+// tty.usbserial-1410
+// ttyUSB0
+const port = new SerialPort("/dev/ttyUSB0", {
   baudRate: 115200,
 });
 
