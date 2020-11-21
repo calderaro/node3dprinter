@@ -1,0 +1,10 @@
+{
+  "name": "node-3d-printing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@serialport/parser-readline": "^9.0.1",
+    "serialport": "^9.0.1"
+  }
+}
